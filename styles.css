@@ -8,6 +8,13 @@
     --dark: #1A4341;
 }
 
+.root-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 /*--- reuseable styles ---*/
 .flex {
     display: flex;
@@ -68,7 +75,7 @@
 .circle-two {
     width: 130px;
     height: 128px;
-    margin-left: -50px;
+    margin-left: -55px;
     z-index: 1;
 }
 
@@ -84,7 +91,7 @@
 
 .long-stick {
     margin-left: -7px;
-    width: 170px;
+    width: 160px;
     height: 27px;
     border-radius: 7px;
 }
