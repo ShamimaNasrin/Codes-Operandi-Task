@@ -1,0 +1,38 @@
+:root {
+    --orange: #f3ac3c;
+    --olive: #998235;
+    --dark: #1A4341;
+}
+
+/*--- reuseable styles ---*/
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 500px;
+    height: 450px;
+    background-color: var(--orange);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-one {
+    width: 180px;
+    height: 140px;
+    background-color: var(--olive);
+    align-items: center;
+}
+
+.circle {
+    border-radius: 100px;
+}
+
+.stick-one {
+    margin-left: 36%;
+    width: 15px;
+    height: 50px;
+    background-color: var(--dark);
+    border-radius: 7px;
+}
