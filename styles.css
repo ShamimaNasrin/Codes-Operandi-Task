@@ -9,20 +9,27 @@
     display: flex;
 }
 
+.container,
+.circle-two,
+.inner-circle-one {
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     width: 500px;
     height: 450px;
     background-color: var(--orange);
     margin: auto;
-    justify-content: center;
-    align-items: center;
 }
 
+/* ---circle-one--- */
 .circle-one {
     width: 180px;
-    height: 140px;
+    height: 174px;
     background-color: var(--olive);
     align-items: center;
+    z-index: 0;
 }
 
 .circle {
@@ -35,4 +42,26 @@
     height: 50px;
     background-color: var(--dark);
     border-radius: 7px;
+}
+
+/* ---circle-two--- */
+
+.circle-two {
+    width: 130px;
+    height: 128px;
+    background-color: var(--olive);
+    margin-left: -50px;
+    z-index: 1;
+}
+
+.inner-circle-one {
+    width: 70px;
+    height: 70px;
+    background-color: var(--orange);
+}
+
+.inner-circle-two {
+    width: 56px;
+    height: 56px;
+    background-color: var(--dark);
 }
